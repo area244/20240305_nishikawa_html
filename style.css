@@ -1,0 +1,71 @@
+/*** ヘッダー ***/
+/** ヘッダー・左側 **/
+.header__right {
+    float: right;
+}
+
+.header__left {
+    float: left;
+}
+
+.header__title {
+    color: #00008b;
+}
+
+/** ヘッダー・右側 **/
+.header__right {
+    float: right;
+}
+
+/* ヘッダー・メニュー */
+.header__nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header__nav ul li {
+    border: 1px solid;
+    padding: 0.5em 1em;
+    margin: 0;
+    font-size: 14px;
+    color: #00008b;
+} 
+
+/** メイン・画像 **/
+.main {
+    clear: both;
+}
+ 
+/* ビュー：全体 */
+.main__view {
+    margin: 10em 0 5em 0;
+}
+
+/* 相対位置：画像 */
+.view__relative-img {
+    position: relative;
+    margin: 0 0 0 auto;
+    display: block;
+    width: 50%;
+    z-index: 3;
+}
+
+/* 絶対位置：文字 */
+.view__absolute-title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 48px;
+    z-index: 2;
+}
+
+/* 絶対位置：ボックス */
+.view__absolute-box {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 60%;
+    height: 30%;
+    background: #00008b;
+    z-index: 1;
+}
