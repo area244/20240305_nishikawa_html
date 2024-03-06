@@ -48,8 +48,6 @@
 /* 相対位置：画像 */
 .view__relative-img {
     position: relative;
-    /*margin: 0 0 0 auto;
-    display: block;*/
     float: right;
     width: 50%;
     z-index: 3;
@@ -58,8 +56,8 @@
 /* 絶対位置：文字 */
 .view__absolute-title {
     position: absolute;
-    clear: both;
-    top: 25%;
+    /*clear: both;*/
+    top: 30%;
     left: 0;
     font-size: 48px;
     z-index: 2;
@@ -71,7 +69,7 @@
     top: 50%;
     left: 0;
     width: 60%;
-    height: 50%;
+    height: 40%;
     background: #00008b;
     z-index: 1;
 }
