@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-  }
-
 /*** ヘッダー ***/
 /** ヘッダー・左側 **/
 .header__right {
@@ -52,8 +48,9 @@
 /* 相対位置：画像 */
 .view__relative-img {
     position: relative;
-    margin: 0 0 0 auto;
-    display: block;
+    /*margin: 0 0 0 auto;
+    display: block;*/
+    float: right;
     width: 50%;
     z-index: 3;
 }
@@ -61,6 +58,7 @@
 /* 絶対位置：文字 */
 .view__absolute-title {
     position: absolute;
+    clear: both;
     top: 25%;
     left: 0;
     font-size: 48px;
